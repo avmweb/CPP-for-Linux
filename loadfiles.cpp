@@ -1,3 +1,4 @@
+//Auxiliary module for loading files in the Meridian pattern recognition system
 #include <iostream>
 #include <opencv2/core.hpp>
 
@@ -58,7 +59,7 @@ if (parser.has("run"))  //./loadfiles - run
 	}
 
 	//fs::copy("/testdir1", "/testdir2");
-	/*
+	/* For Testing...
 	try {
 			fs::copy_file("/testdir1", "/testdir2");
 		}
